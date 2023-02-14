@@ -1,0 +1,28 @@
+.banner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url("/images/dancer.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    position: relative;
+    top: 74px;
+}
+
+.banner--title {
+    font-size: 62px;
+    line-height: 60px;
+    font-weight: 800;
+    color: #111111;
+    padding: 20px 0;
+}
+
+.banner {
+    h2 {
+        font-size: 18px;
+        font-weight: 300;
+        color: #9c9c9c;
+    }
+}

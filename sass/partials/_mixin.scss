@@ -1,0 +1,12 @@
+@mixin header {
+    font-size: 34px;
+    font-weight: 700;
+    color: #111111;
+
+}
+
+@mixin para {
+    font-size: 15px;
+    color: #111111;
+    line-height: 25px;
+}

@@ -1,0 +1,46 @@
+@media only screen and (max-width: 600px) {
+    .navbar {
+        width: 100%;
+        .nav-social-items {
+            display: none;
+
+        }
+
+        .nav-items {
+            ul {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: flex-start;
+
+                li {
+                    padding: 2px;
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+
+    [class*="col-"] {
+        width: 100%;
+    }
+
+    .main-pricing {
+        .pricing {
+
+            .pricing-card {
+                width: 80%;
+                margin: 0 auto 20px auto;
+            }
+        }
+    }
+
+    footer {
+        font-size: 12px;
+
+        .copyright {
+            padding-top: 10px;
+        }
+
+    }
+
+}
